@@ -3,7 +3,7 @@ class Sort:
         self.list = list
 
     def merge(self):
-        for index in range(0, len(self.list - 1), 2):   
+        for index in range(0, len(self.list) - 1, 2):   
             if self.list[index] < self.list[index + 1]:
                 pass
                 #Need to add temporary lists
@@ -29,5 +29,5 @@ class Sort:
 list = Sort([9,5,6,7,4,1,3,2])
 
 Sort.print(list)
-Sort.merge(list)
+Sort.bubble(list)
 Sort.print(list)
