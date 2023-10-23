@@ -47,4 +47,6 @@ emp_1 = HourlyEmployee("mama","joe",69,30,40,20)
 
 emp_1.get_pay()
 
-Company().fire_emp(emp_1)
+Company.fire_emp(emp_1)
+
+emp_1.get_pay()
